@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Servitec — reparación de lavadoras">
+  <defs>
+    <linearGradient id="servitec-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#37E3DF"/>
+      <stop offset="1" stop-color="#0E9BA0"/>
+    </linearGradient>
+  </defs>
+  <!-- Cuerpo del tambor -->
+  <rect x="2" y="2" width="44" height="44" rx="13" fill="url(#servitec-grad)"/>
+  <!-- Aro de la puerta -->
+  <circle cx="24" cy="24" r="14" fill="none" stroke="rgba(255,255,255,.38)" stroke-width="2"/>
+  <!-- Cristal -->
+  <circle cx="24" cy="24" r="9.6" fill="#0A1621"/>
+  <!-- Remolino de giro / agua -->
+  <path d="M24 15.4a8.6 8.6 0 0 1 8.3 6.4" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M24 32.6a8.6 8.6 0 0 1-8.3-6.4" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="24" cy="24" r="3" fill="#37E3DF"/>
+</svg>

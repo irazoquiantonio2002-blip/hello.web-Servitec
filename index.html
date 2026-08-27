@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Marca de JS activo: si el script no corre, la portada se muestra completa (ver styles.css) -->
+  <script>document.documentElement.className += ' js';</script>
+
+  <!-- ══════════════════════ SEO ══════════════════════ -->
+  <title>Servitec Olmar del Sureste | Reparación de Lavadoras a Domicilio en Cancún y Riviera Maya</title>
+  <meta name="description" content="Servitec Olmar del Sureste: servicio técnico, mantenimiento, reparación e instalación de lavadoras de todas las marcas, a domicilio en Cancún, Puerto Morelos, Playa del Carmen, Isla Mujeres y Cozumel.">
+  <meta name="keywords" content="reparación de lavadoras Cancún, servicio técnico de lavadoras, mantenimiento de lavadoras, instalación de lavadoras a domicilio, técnico de lavadoras Playa del Carmen, reparación lavadoras Cozumel, Servitec Olmar del Sureste">
+  <meta name="author" content="Servitec Olmar del Sureste">
+  <meta name="theme-color" content="#0A1621">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://servitecolmar.mx/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Servitec Olmar del Sureste | Reparación de Lavadoras a Domicilio · Cancún y Riviera Maya">
+  <meta property="og:description" content="Servicio técnico, mantenimiento, reparación e instalación de lavadoras de todas las marcas, a domicilio en Cancún, Puerto Morelos, Playa del Carmen, Isla Mujeres y Cozumel.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:site_name" content="Servitec Olmar del Sureste">
+  <meta property="og:image" content="assets/logo.png">
+
+  <!-- Favicon: logotipo oficial Servitec Olmar del Sureste -->
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="apple-touch-icon" href="assets/logo.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Datos estructurados: negocio local -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    "name": "Servitec Olmar del Sureste",
+    "image": "assets/logo.png",
+    "description": "Servicio técnico, mantenimiento, reparación e instalación de lavadoras de todas las marcas, con servicio a domicilio y atención personalizada.",
+    "telephone": ["+525621098716", "+529987332389"],
+    "address": { "@type": "PostalAddress", "addressLocality": "Cancún", "addressRegion": "Quintana Roo", "addressCountry": "MX" },
+    "areaServed": ["Cancún", "Puerto Morelos", "Playa del Carmen", "Isla Mujeres", "Cozumel"],
+    "serviceType": ["Servicio técnico de lavadoras", "Mantenimiento de lavadoras", "Reparación de lavadoras", "Instalación de lavadoras"],
+    "sameAs": ["https://www.facebook.com/share/19WAzvBg58/"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       LOADER
+  ══════════════════════════════════════════════════════ -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-bulb">
+      <i class="fa-solid fa-gear"></i>
+    </div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    <span class="loader-text">Servitec Olmar</span>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════════════════ -->
+  <header id="navbar" role="banner">
+    <div class="container">
+      <div class="nav-inner">
+
+        <a href="#hero" class="nav-logo" aria-label="Servitec Olmar del Sureste — inicio">
+          <div class="nav-logo-icon">
+            <!-- Logotipo oficial (fondo removido) -->
+            <img src="assets/logo.png" alt="Servitec Olmar del Sureste — reparación de lavadoras en Cancún y Riviera Maya">
+          </div>
+          <div class="nav-logo-copy">
+            <span>Servitec</span>
+            <span>Olmar</span>
+          </div>
+        </a>
+
+        <nav aria-label="Navegación principal">
+          <ul class="nav-links">
+            <li><a href="#why">Por qué Servitec</a></li>
+            <li><a href="#ambientes">Servicios</a></li>
+            <li><a href="#proceso">Cómo trabajamos</a></li>
+            <li><a href="#producto">Marcas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <a href="#contacto" class="btn-gold nav-cta" style="font-size:13px; padding:12px 26px;">
+          Agendar Servicio
+        </a>
+
+        <button class="hamburger" id="hamburger"
+                aria-label="Abrir menú" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mob-menu" aria-label="Menú móvil">
+      <a href="#why">Por qué Servitec</a>
+      <a href="#ambientes">Servicios</a>
+      <a href="#proceso">Cómo trabajamos</a>
+      <a href="#producto">Marcas</a>
+      <a href="#contacto">Contacto</a>
+      <a href="#contacto">Agendar Servicio →</a>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════════════
+       HERO  ·  sección CON imagen de fondo (parallax)
+  ══════════════════════════════════════════════════════ -->
+  <main>
+    <section id="hero" aria-labelledby="hero-heading">
+
+      <!-- Imagen de fondo: hilera de lavadoras (lavandería) -->
+      <div class="hero-bg" aria-hidden="true"></div>
+      <!-- Capas oscuras -->
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <!-- Textura de rejilla -->
+      <div class="hero-grid" aria-hidden="true"></div>
+      <!-- Canvas: burbujas / orbes -->
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+      <!-- Haces de luz -->
+      <div class="hero-rays" aria-hidden="true">
+        <div class="hero-ray r1"></div>
+        <div class="hero-ray r2"></div>
+        <div class="hero-ray r3"></div>
+        <div class="hero-ray r4"></div>
+        <div class="hero-ray r5"></div>
+      </div>
+      <!-- Grano de película -->
+      <div class="hero-grain" aria-hidden="true"></div>
+      <!-- Barrido inicial -->
+      <div class="hero-scanline" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-layout">
+        <div class="hero-content">
+
+          <!-- Badge -->
+          <div class="hero-badge" id="hero-badge" aria-hidden="true">
+            <div class="badge-dot"></div>
+            Servicio a domicilio · Cancún y Riviera Maya
+          </div>
+
+          <!-- Título animado -->
+          <h1 class="hero-title" id="hero-heading">
+            <span class="line"><span>Reparamos</span></span>
+            <span class="line"><span>todo tipo</span></span>
+            <span class="line"><span class="accent">de lavadoras.</span></span>
+          </h1>
+
+          <!-- Subtítulo -->
+          <p class="hero-sub" id="hero-sub">
+            <strong>Servicio técnico, mantenimiento, reparación e instalación</strong> de lavadoras de todas las marcas, a domicilio y con atención personalizada en Cancún, Puerto Morelos, Playa del Carmen, Isla Mujeres y Cozumel.
+          </p>
+
+          <!-- CTAs -->
+          <div class="hero-ctas" id="hero-ctas">
+            <a href="#contacto" class="btn-gold">
+              Agendar Servicio a Domicilio
+              <i class="fa-solid fa-arrow-right" style="font-size:12px;"></i>
+            </a>
+            <a href="#ambientes" class="btn-outline">
+              <i class="fa-solid fa-screwdriver-wrench" style="font-size:15px; color:var(--gray);"></i>
+              Ver Servicios
+            </a>
+          </div>
+
+          <!-- Barra de confianza -->
+          <div class="hero-trust" id="hero-trust" aria-label="Credenciales">
+            <div class="trust-item">
+              <i class="fa-solid fa-tags"></i>
+              Todas las marcas
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-truck-fast"></i>
+              Servicio a domicilio
+            </div>
+            <div class="trust-divider" aria-hidden="true"></div>
+            <div class="trust-item">
+              <i class="fa-solid fa-location-dot"></i>
+              Cancún y Riviera Maya
+            </div>
+          </div>
+
+        </div><!-- /.hero-content -->
+
+        <!-- Portada: logotipo oficial + datos clave -->
+        <div class="hero-visual reveal d2">
+          <div class="hv-card hv-card--brand">
+            <img class="hv-logo" src="assets/logo.png"
+                 alt="Logotipo oficial de Servitec Olmar del Sureste, reparación de lavadoras">
+            <div class="hv-badge hv-badge-top" aria-hidden="true">
+              <i class="fa-solid fa-bolt"></i>
+              Diagnóstico a domicilio
+            </div>
+            <div class="hv-badge hv-badge-bot" aria-hidden="true">
+              <span class="hv-dot"></span>
+              Reparamos hoy tu lavadora
+            </div>
+          </div>
+          <div class="hv-brands" aria-label="Marcas que reparamos">
+            <span>Easy</span><span>Whirlpool</span><span>Maytag</span><span>LG</span><span>GE</span><span>Samsung</span><span>Mabe</span>
+          </div>
+        </div>
+
+        </div><!-- /.hero-layout -->
+      </div>
+
+      <!-- Indicador de scroll -->
+      <div class="scroll-cue" aria-hidden="true">
+        <div class="scroll-mouse">
+          <div class="scroll-mouse-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         MARQUEE
+    ══════════════════════════════════════════════════ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-inner" id="marquee"></div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════
+         WHY — Diferenciadores  ·  sección SIN imagen de fondo
+    ══════════════════════════════════════════════════ -->
+    <section id="why" aria-labelledby="why-heading">
+      <div class="container">
+
+        <div class="why-header">
+          <div class="reveal">
+            <div class="label">La diferencia Servitec Olmar</div>
+            <h2 class="why-quote" id="why-heading">
+              Una lavadora descompuesta no avisa…
+              <em> por eso respondemos rápido y llegamos hasta donde estás.</em>
+            </h2>
+          </div>
+          <p class="why-sub reveal d2">
+            Somos técnicos especializados en lavadoras. Diagnóstico claro, refacciones adecuadas y un trato cercano para que tu equipo vuelva a funcionar sin sorpresas en el costo.
+          </p>
+        </div>
+
+        <div class="features-grid">
+
+          <div class="f-card reveal">
+            <div class="f-num" aria-hidden="true">01</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-tags"></i>
+            </div>
+            <h3>Todas las marcas</h3>
+            <p>Easy, Whirlpool, Maytag, LG, GE, Samsung, Mabe y más. Experiencia en modelos automáticos y semiautomáticos, de carga frontal y superior.</p>
+          </div>
+
+          <div class="f-card reveal d1">
+            <div class="f-num" aria-hidden="true">02</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-house-chimney-user"></i>
+            </div>
+            <h3>Servicio a domicilio</h3>
+            <p>Vamos hasta tu casa, hotel o negocio en Cancún y la Riviera Maya. Tú no mueves la lavadora: llegamos con herramienta y refacciones.</p>
+          </div>
+
+          <div class="f-card reveal d2">
+            <div class="f-num" aria-hidden="true">03</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-comments"></i>
+            </div>
+            <h3>Atención personalizada</h3>
+            <p>Te explicamos qué falla, qué se repara y por qué. Sin tecnicismos innecesarios y con presupuesto cerrado antes de comenzar.</p>
+          </div>
+
+          <div class="f-card reveal d3">
+            <div class="f-num" aria-hidden="true">04</div>
+            <div class="f-icon" aria-hidden="true">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3>Trabajo garantizado</h3>
+            <p>Respaldamos cada reparación. Si algo no queda bien, volvemos. Tu satisfacción es la medida de nuestro servicio.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         SERVICIOS (#ambientes)  ·  sección SIN imagen de fondo
+    ══════════════════════════════════════════════════ -->
+    <section id="ambientes" aria-labelledby="amb-heading">
+      <div class="container">
+
+        <div class="ambientes-top">
+          <div class="reveal">
+            <div class="label">Nuestros servicios</div>
+            <h2 class="section-title" id="amb-heading">
+              Servicio técnico completo<br>
+              <span class="gold">para tu lavadora</span>
+            </h2>
+            <p style="color:var(--gray); margin-top:16px; font-size:15.5px; max-width:460px; line-height:1.7;">
+              Servicio técnico, mantenimiento, reparación e instalación de lavadoras de todas las marcas. Elegimos la solución correcta según el diagnóstico.
+            </p>
+          </div>
+          <div class="reveal d2">
+            <span class="ambiente-pill">¿Qué necesita tu lavadora?</span>
+          </div>
+        </div>
+
+        <div class="ambientes-grid">
+
+          <!-- Reparación -->
+          <div class="amb-card reveal">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=1400&auto=format&fit=crop"
+              alt="Técnico de Servitec reparando una lavadora con herramienta">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(23,200,200,0.15); border-color:rgba(55,227,223,0.4);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-screwdriver-wrench" style="color:#37E3DF;"></i>
+              </div>
+              <h3>Reparación</h3>
+              <p>No enciende, no centrifuga, no drena, tira agua o hace ruido. Diagnosticamos y reparamos la falla de raíz.</p>
+              <div class="amb-temp">Diagnóstico + Reparación</div>
+            </div>
+          </div>
+
+          <!-- Mantenimiento preventivo -->
+          <div class="amb-card reveal d1">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?q=80&w=1400&auto=format&fit=crop"
+              alt="Mantenimiento preventivo de una lavadora de carga frontal">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(255,255,255,0.1); border-color:rgba(255,255,255,0.3);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-soap" style="color:white;"></i>
+              </div>
+              <h3>Mantenimiento preventivo</h3>
+              <p>Limpieza interna y revisión de mangueras, bandas, rodamientos y sellos para alargar la vida de tu equipo.</p>
+              <div class="amb-temp">Servicio preventivo</div>
+            </div>
+          </div>
+
+          <!-- Instalaciones -->
+          <div class="amb-card reveal d2">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?q=80&w=1400&auto=format&fit=crop"
+              alt="Instalación y nivelación de lavadora nueva en un área de lavado">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(30,134,214,0.16); border-color:rgba(42,163,232,0.4);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-ruler-combined" style="color:#2AA3E8;"></i>
+              </div>
+              <h3>Instalaciones</h3>
+              <p>Conexión, nivelación y prueba de tu lavadora nueva o reubicada, para evitar fugas y vibraciones.</p>
+              <div class="amb-temp">Instalación profesional</div>
+            </div>
+          </div>
+
+          <!-- Servicio técnico -->
+          <div class="amb-card reveal d3">
+            <img class="amb-img"
+              src="https://images.unsplash.com/photo-1545173168-9f1947eebb7f?q=80&w=1400&auto=format&fit=crop"
+              alt="Servicio técnico de lavadoras de todas las marcas a domicilio">
+            <div class="amb-overlay">
+              <div class="amb-icon-wrap"
+                   style="background:rgba(23,200,200,0.15); border-color:rgba(55,227,223,0.4);"
+                   aria-hidden="true">
+                <i class="fa-solid fa-user-gear" style="color:#37E3DF;"></i>
+              </div>
+              <h3>Servicio técnico</h3>
+              <p>Diagnóstico profesional a domicilio y revisión completa del equipo, con presupuesto cerrado antes de intervenir.</p>
+              <div class="amb-temp">Diagnóstico a domicilio</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         PROCESO  ·  sección CON imagen de fondo
+    ══════════════════════════════════════════════════ -->
+    <section id="proceso" aria-labelledby="proceso-heading">
+      <div class="container">
+
+        <div class="proceso-header reveal">
+          <div class="label">Cómo trabajamos</div>
+          <h2 class="section-title" id="proceso-heading">
+            Simple, rápido y <span class="gold">sin rodeos</span>
+          </h2>
+          <p>Del primer mensaje a tu lavadora funcionando, te acompañamos en cada paso del proceso.</p>
+        </div>
+
+        <div class="proceso-grid">
+
+          <div class="proceso-step reveal">
+            <div class="step-number">Paso 01</div>
+            <h3>Contáctanos</h3>
+            <p>Escríbenos por WhatsApp o Facebook con la marca, el modelo y la falla de tu lavadora. Menciona si te encuentras en Cancún, Puerto Morelos, Playa del Carmen, Isla Mujeres o Cozumel y con gusto te atendemos.</p>
+          </div>
+
+          <div class="proceso-step reveal d1">
+            <div class="step-number">Paso 02</div>
+            <h3>Diagnóstico a domicilio</h3>
+            <p>Un técnico acude a tu domicilio, revisa el equipo y te entrega un diagnóstico claro con presupuesto cerrado antes de reparar.</p>
+          </div>
+
+          <div class="proceso-step reveal d2">
+            <div class="step-number">Paso 03</div>
+            <h3>Reparación y garantía</h3>
+            <p>Realizamos la reparación con las refacciones adecuadas, probamos la lavadora contigo y respaldamos el trabajo.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         MARCAS Y EQUIPOS (#producto)  ·  sección SIN imagen de fondo
+    ══════════════════════════════════════════════════ -->
+    <section id="producto" aria-labelledby="prod-heading">
+      <div class="container">
+        <div class="producto-wrap">
+
+          <!-- Info -->
+          <div class="reveal">
+            <div class="label">Marcas que reparamos</div>
+            <h2 class="section-title" id="prod-heading">
+              Experiencia en<br>
+              <span class="gold">todas las marcas de lavadoras</span>
+            </h2>
+            <p class="producto-lead">
+              Automáticas, semiautomáticas, de carga frontal o superior. Si lava ropa, la reparamos: refacciones adecuadas y pruebas antes de entregar.
+            </p>
+
+            <ul class="feature-rows" aria-label="Marcas y fallas que atendemos">
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-tags"></i></div>
+                <div>
+                  <h4>Whirlpool · Mabe · Easy</h4>
+                  <p>Modelos automáticos y semiautomáticos de mayor uso en la región.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-microchip"></i></div>
+                <div>
+                  <h4>LG · Samsung</h4>
+                  <p>Carga frontal y superior, tableros electrónicos y sistemas inverter.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-gears"></i></div>
+                <div>
+                  <h4>GE · Maytag</h4>
+                  <p>Equipos americanos y de línea alta con refacciones disponibles.</p>
+                </div>
+              </li>
+              <li class="f-row">
+                <div class="f-row-icon" aria-hidden="true"><i class="fa-solid fa-triangle-exclamation"></i></div>
+                <div>
+                  <h4>Fallas más comunes</h4>
+                  <p>No centrifuga, no drena, no enciende, tira agua, no gira, ruido o vibración excesiva.</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="specs-bar" role="list" aria-label="Alcance del servicio">
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">Todas</span>
+                <span class="spec-name">Las marcas</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">A domicilio</span>
+                <span class="spec-name">Cobertura</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">5</span>
+                <span class="spec-name">Ciudades</span>
+              </div>
+              <div class="spec-cell" role="listitem">
+                <span class="spec-val">Sí</span>
+                <span class="spec-name">Con garantía</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Visual -->
+          <div class="reveal d2">
+            <div class="panel-scene">
+              <div class="led-panel-body"
+                   role="img" aria-label="Lavadora atendida por Servitec: carga frontal y superior">
+              </div>
+              <div class="p-badge pb-tl" aria-hidden="true">
+                <div class="p-badge-dot"></div>
+                Carga frontal y superior
+              </div>
+              <div class="p-badge pb-br" aria-hidden="true">
+                <i class="fa-solid fa-shield-halved" style="color:var(--gold);"></i>
+                Reparación garantizada
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         STATS
+    ══════════════════════════════════════════════════ -->
+    <section id="stats" aria-label="Datos de Servitec Olmar del Sureste">
+      <div class="container">
+        <div class="stats-grid reveal" role="list">
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="5" data-suffix=""
+                 aria-label="5 ciudades">0</div>
+            <div class="stat-lbl">Ciudades atendidas<br>en la Riviera Maya</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="20" data-suffix="+"
+                 aria-label="Más de 20 marcas">0</div>
+            <div class="stat-lbl">Marcas de lavadoras<br>reconocidas</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num"
+                 data-count="100" data-suffix="%"
+                 aria-label="100 por ciento">0</div>
+            <div class="stat-lbl">Enfoque exclusivo<br>en lavadoras</div>
+          </div>
+
+          <div class="stat-cell" role="listitem">
+            <div class="stat-num" aria-label="A domicilio">A domicilio</div>
+            <div class="stat-lbl">Sin que muevas<br>tu lavadora</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         ZONAS DE COBERTURA (#sectores)
+    ══════════════════════════════════════════════════ -->
+    <section id="sectores" aria-labelledby="sec-heading">
+      <div class="container">
+
+        <div class="sectores-hdr reveal">
+          <div class="label">Cobertura</div>
+          <h2 class="section-title" id="sec-heading">
+            Te atendemos en <span class="gold">toda la Riviera Maya</span>
+          </h2>
+          <p>Servicio a domicilio para residentes y turistas. Menciónanos tu ubicación y con gusto te atendemos.</p>
+        </div>
+
+        <div class="sectores-grid" role="list">
+          <div class="sector-card reveal" role="listitem">
+            <i class="fa-solid fa-city sector-icon" aria-hidden="true"></i>
+            <h3>Cancún</h3>
+          </div>
+          <div class="sector-card reveal d1" role="listitem">
+            <i class="fa-solid fa-anchor sector-icon" aria-hidden="true"></i>
+            <h3>Puerto Morelos</h3>
+          </div>
+          <div class="sector-card reveal d2" role="listitem">
+            <i class="fa-solid fa-umbrella-beach sector-icon" aria-hidden="true"></i>
+            <h3>Playa del Carmen</h3>
+          </div>
+          <div class="sector-card reveal d3" role="listitem">
+            <i class="fa-solid fa-water sector-icon" aria-hidden="true"></i>
+            <h3>Isla Mujeres</h3>
+          </div>
+          <div class="sector-card reveal d4" role="listitem">
+            <i class="fa-solid fa-ship sector-icon" aria-hidden="true"></i>
+            <h3>Cozumel</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════
+         CONTACTO
+    ══════════════════════════════════════════════════ -->
+    <section id="contacto" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="contact-hdr reveal">
+          <div class="label">Contacto</div>
+          <h2 class="section-title" id="contact-heading">
+            Agenda tu <span class="gold">servicio a domicilio</span>
+          </h2>
+          <p>Cuéntanos qué le pasa a tu lavadora y en qué ciudad te encuentras. Te respondemos lo antes posible.</p>
+        </div>
+
+        <div class="contact-box reveal">
+
+          <!-- Panel de información -->
+          <div class="contact-info">
+            <h3>Atención personalizada</h3>
+            <p class="ci-sub">Servicio técnico, mantenimiento, reparación e instalación de lavadoras de todas las marcas en Cancún y la Riviera Maya.</p>
+
+            <ul class="ci-list">
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Zona de servicio</h4>
+                  <p>Cancún, Puerto Morelos, Playa del Carmen,<br>
+                     Isla Mujeres y Cozumel.<br>
+                     Servicio a domicilio.</p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Teléfonos</h4>
+                  <p>
+                    <a href="tel:+525621098716">56 2109 8716</a><br>
+                    <a href="tel:+529987332389">998 733 2389</a>
+                  </p>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>Facebook</h4>
+                  <p>Escríbenos por Messenger, respondemos a diario.</p>
+                  <a href="https://www.facebook.com/share/19WAzvBg58/" target="_blank"
+                     rel="noopener noreferrer" class="ci-wa-link">
+                    Abrir Facebook →
+                  </a>
+                </div>
+              </li>
+              <li class="ci-item">
+                <div class="ci-icon" aria-hidden="true">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="ci-body">
+                  <h4>WhatsApp</h4>
+                  <p>Envíanos marca, modelo y falla y cotizamos.</p>
+                  <a href="https://wa.me/525621098716?text=Hola%20Servitec%20Olmar%2C%20necesito%20servicio%20para%20mi%20lavadora." target="_blank"
+                     rel="noopener noreferrer" class="ci-wa-link">
+                    Abrir chat →
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div><!-- /.contact-info -->
+
+          <!-- Formulario -->
+          <div class="contact-form-wrap">
+            <h3>Solicitar servicio</h3>
+            <form id="wa-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="f-name">Nombre completo</label>
+                  <input type="text" id="f-name" class="form-control"
+                         placeholder="Ej. Ana Martínez" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="f-city">Tu ciudad</label>
+                  <select id="f-city" class="form-control">
+                    <option>Cancún</option>
+                    <option>Puerto Morelos</option>
+                    <option>Playa del Carmen</option>
+                    <option>Isla Mujeres</option>
+                    <option>Cozumel</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-interest">¿Qué necesitas?</label>
+                <select id="f-interest" class="form-control">
+                  <option>Servicio técnico / diagnóstico</option>
+                  <option>Reparación de lavadora</option>
+                  <option>Mantenimiento</option>
+                  <option>Instalación</option>
+                  <option>Otro</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="f-msg">Detalle de la falla</label>
+                <textarea id="f-msg" class="form-control" rows="4" required
+                          placeholder="Marca y modelo de tu lavadora y qué está fallando: no centrifuga, tira agua, no enciende, hace ruido…"></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <i class="fa-brands fa-whatsapp"></i>
+                Enviar por WhatsApp
+              </button>
+              <p class="form-note">
+                Al enviar se abrirá WhatsApp con tu información lista para mandar.
+              </p>
+            </form>
+          </div>
+
+        </div><!-- /.contact-box -->
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <img src="assets/logo.png" alt="Servitec Olmar del Sureste">
+          <span>Servitec Olmar <em>del Sureste</em></span>
+        </div>
+        <p class="footer-copy">
+          &copy; <span id="year"></span> Servitec Olmar del Sureste. Servicio técnico, mantenimiento, reparación e instalación de lavadoras. Cancún y Riviera Maya, Quintana Roo.
+        </p>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/share/19WAzvBg58/"
+             target="_blank" rel="noopener noreferrer"
+             class="footer-soc" aria-label="Facebook de Servitec Olmar del Sureste">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="tel:+525621098716"
+             class="footer-soc" aria-label="Llamar a Servitec Olmar del Sureste">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+          <a href="https://wa.me/525621098716" target="_blank"
+             rel="noopener noreferrer" class="footer-soc" aria-label="WhatsApp de Servitec Olmar del Sureste">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════════════════════════════════════════════════
+       WHATSAPP FLOTANTE
+  ══════════════════════════════════════════════════════ -->
+  <a href="https://wa.me/525621098716?text=Hola%20Servitec%20Olmar%2C%20vi%20su%20sitio%20web%20y%20necesito%20servicio%20para%20mi%20lavadora.%20Me%20encuentro%20en%20..."
+     target="_blank" rel="noopener noreferrer"
+     class="wa-btn" aria-label="Contactar por WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
